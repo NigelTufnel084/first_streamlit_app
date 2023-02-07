@@ -1,4 +1,4 @@
 
-Import stream lit
+import streamlit
 
-Stream lit.title("My parents New Healthy Dinner")
+streamlit.title("My parents New Healthy Dinner")
