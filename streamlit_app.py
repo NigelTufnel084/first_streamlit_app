@@ -27,6 +27,8 @@ streamlit.dataframe(fruits_to_show)
 
 
 # New section to display fruitvice api response 
+
+streamlit.header('Fruityvice fruit Advice!')
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/pao/fruit/watermelon")
 streamlit.text(fruityvice_response)
